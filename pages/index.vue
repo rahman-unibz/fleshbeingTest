@@ -1,12 +1,23 @@
 <template>
   <div>
-    <h1>Hello possibile future FlashBeing teammate!</h1>
-    <p>This is the page you should edit.</p>
+    <div>
+      <Header />
+    </div>
+    <div>
+      <Editor />
+    </div>
+    <div>
+      <Certificates />
+    </div>
+    <div>
+      <Galleries />
+    </div>
   </div>
 </template>
-
 <script>
-export default {}
+export default {
+  components: true,
+}
 </script>
 
 <style lang="postcss" scoped>
